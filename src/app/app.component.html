@@ -1,0 +1,239 @@
+
+<section class="container p-0 mb-5">
+  <div class="banner-content">
+      <div class="container">
+          <nav class="navbar navbar-expand-lg navbar-light bg-transparent">
+              <i class="fa-solid fa-bars toggle-menu"></i>
+              <a class="navbar-brand" href="#"><img src="../assets/logog.png" class="logo" alt=""></a>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                  <ul class="navbar-nav me-auto mb-2 mb-lg-0 mx-auto">
+                      <li class="nav-item" [ngClass]="{ 'active': activeTab === 'order' }" (click)="setActiveTab('order')">
+                          <a class="nav-link" href="#">Order</a>
+                      </li>
+                      <li class="nav-item" [ngClass]="{ 'active': activeTab === 'locations' }" (click)="setActiveTab('locations')">
+                          <a class="nav-link" href="#">Locations</a>
+                      </li>
+                      <li class="nav-item" [ngClass]="{ 'active': activeTab === 'contact' }" (click)="setActiveTab('contact')">
+                          <a class="nav-link" href="#">Contact Us</a>
+                      </li>
+                      <li class="nav-item" [ngClass]="{ 'active': activeTab === 'about' }" (click)="setActiveTab('about')">
+                          <a class="nav-link" href="#">About Us</a>
+                      </li>
+                      <li class="nav-item" [ngClass]="{ 'active': activeTab === 'add-restaurant' }" (click)="setActiveTab('add-restaurant')">
+                          <a class="nav-link" href="#">Add your restaurant</a>
+                      </li>
+                  </ul>
+              </div>
+              <form class="d-flex" role="search">
+                  <button class="btn btn-outline-wh me-2" type="submit">Search</button>
+                  <button class="btn btn-outline-bg" type="submit">Search</button>
+              </form>
+          </nav>
+          <div class="row">
+              <div class="col-md-7 pt-5">
+                  <h1 class="">Why Go out when, you can Grubz in</h1>
+
+                  <form class="d-flex col-9 mt-5" role="search">
+                      <div class="d-flex-body">
+                          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                          <button class="btn btn-cta" type="submit">Search</button>
+                      </div>
+                  </form>
+
+                  <div class="row col-10  text-center mt-5">
+                      <div class="col-md-6">
+                          <h2>230</h2>
+                          <h5 class="text-white">Restaurants</h5>
+                      </div>
+                      <div class="col-md-6">
+                          <h2>30,000</h2>
+                          <h5 class="text-white"> Users</h5>
+                      </div>
+
+                  </div>
+              </div>
+              <div class="col-md-5">
+                  <img src="../assets/banner-img.png" class="img-fluid mx-md-auto d-block" alt="">
+              </div>
+          </div>
+
+      </div>
+  </div>
+
+
+
+</section>
+
+
+
+
+
+
+<div class="container joinMoment mb-5">
+  <div class="row">
+      <div class="col-4">
+          <div class="col-12">
+              <h1><b>Join the <br> movement</b></h1>
+              <p>Grow your business and reach new customers by partnering with us.</p>
+              <button class="btn btn-danger">Sign up your store</button>
+          </div>
+      </div>
+
+      <div class="col-8 diagonal-cut">
+          <img src="../assets/Fast_Food.png" alt="Fast Food Image">
+      </div>
+  </div>
+
+</div>
+
+<section class="join-us mb-5">
+
+  <div class="container">
+      <div class="row">
+          <div class="col-6">
+              <img class="burger" src="../assets/burger.png">
+          </div>
+
+
+          <div class="col-6  mt-5 pt-5 mb-5 pb-5">
+
+              <h1><b>Everything you <br> crave, delivered</b></h1>
+              <p>Get a pizza or a curry delivered, or pick up some chicken chow mein from the chinese takeout spot
+                  you've been meaning to try.</p>
+              <button class="btn btn-danger btn-rounded">Find restaurant</button>
+          </div>
+      </div>
+
+  </div>
+</section>
+
+
+<section class="find mb-5">
+
+  <div class="container">
+      <div class="row">
+          <div class="col-6  mt-5 pt-5 mb-5 pb-5">
+
+              <h1><b>Find the perfect<br> cuisine for you</b></h1>
+              <p>Start swiping riht for your taste buds -you'll soon find the cuisine that's a perfect match for your
+                  cravins.</p>
+              <button class="btn btn-danger btn-rounded">Discover Cuisine</button>
+          </div>
+
+
+          <div class="col-6">
+              <img src="../assets/eattingPizza.jpg" class="w-100">
+          </div>
+      </div>
+
+  </div>
+</section>
+
+<section class="download mb-5">
+  <div class="container app">
+      <div class="row">
+          <div class="col-6 p-5">
+
+              <img src="../assets/app.png">
+          </div>
+
+
+          <div class="col-6  mt-5 pt-5 mb-5 pb-5">
+              <h1><b>Download<br> our App</b></h1>
+              <p>Our apps gives you access to your favourite restaurant.</p>
+              <p>Get your food delivered right to you.</p>
+              <div class="storesImg">
+                  <img src="../assets/appstore.png" />
+                  <img src="../assets/playstore-removebg-preview.png" />
+
+              </div>
+          </div>
+      </div>
+  </div>
+</section>
+
+
+<section class="mb-5">
+  <div class="container">
+      <div class="row">
+          <div class="col-12 p-0">
+              <div class="map-container">
+                  <div class="overlay-text">Restaurants <br> near me</div>
+                  <iframe
+                      src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d15130.537263974189!2d73.88438594226558!3d18.545420164407005!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sRestaurants!5e0!3m2!1sen!2sin!4v1704960056409!5m2!1sen!2sin"
+                      class="map p-0"></iframe>
+              </div>
+          </div>
+      </div>
+  </div>
+
+</section>
+
+<section class="mb-5">
+  <div class="container">
+      <div class="row">
+          <div class="col-12 viewCities">
+              <div class="">
+                 <h1>View all cities</h1>
+              </div>
+          </div>
+
+          <div class="col-md-3 col-sm-6" *ngFor="let city of cities">
+              <div class="city-card">
+                <h3>{{ city }}</h3>
+              </div>
+            </div>
+      </div>
+  </div>
+
+</section>
+
+<footer>
+  <div class="container p-5 footersection">
+      <div class="row">
+          <!-- 1st section with logo and copyright -->
+          <div class="col-lg-3 col-md-6 col-sm-12 footer-section">
+              <img src="../assets/logo.png" alt="Logo" class="footer-logo">
+              <p class="copyright">&copy; 2022 Go Grubz Ltd. All rights reserved.</p>
+          </div>
+
+          <!-- 2nd section with anchor tags -->
+          <div class="col-lg-3 col-md-6 col-sm-12 footer-section">
+              <ul>
+                  <li><a href="#">Get Help</a></li>
+                  <li><a href="#">Buy gift cards</a></li>
+                  <li><a href="#">Add your restaurant</a></li>
+                  <li><a href="#">Sign up to deliver</a></li>
+                  <li><a href="#">Create a business account</a></li>
+                  <li><a href="#">Promotions</a></li>
+                  <!-- Add more anchor tags as needed -->
+              </ul>
+          </div>
+
+          <!-- 3rd section with social icons -->
+          <div class="col-lg-3 col-md-6 col-sm-12 footer-section">
+              <ul>
+                  <li><a href="#">Restaurants near me</a></li>
+                  <li><a href="#">View all cities</a></li>
+                  <li><a href="#">View all countries</a></li>
+                  <li><a href="#">Pickup near me</a></li>
+                  <li><a href="#">About Us</a></li>
+                  <li><a href="#">English</a></li>
+                  <!-- Add more anchor tags as needed -->
+              </ul>
+          </div>
+
+
+          <!-- 4th section with follow us text -->
+          <div class="col-lg-3 col-md-6 col-sm-12 pt-5 footer-section mx-auto text-center">
+              <p>Follow Us</p>
+              <div class="footer-social-icons">
+                  <a href="#"><img src="../assets/facebook-logo.png" alt="Facebook"></a>
+                  <a href="#"><img src="../assets/instagram.png" alt="Instagram"></a>
+                  <a href="#"><img src="../assets/twitter.png" alt="twitter"></a>
+                  <!-- Add more social icons as needed -->
+              </div>
+          </div>
+      </div>
+  </div>
+</footer>
