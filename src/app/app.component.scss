@@ -8,14 +8,6 @@
     color:aliceblue; 
 }
  
-.app h1{
-    font-weight: 800;
-    font-size: xx-large;
-    font-family: sans-serif;
-} 
-.app p{
-    font-family: sans-serif;
-}
 .storesImg{
 
     justify-content: flex-start;
@@ -291,4 +283,8 @@ ul.navbar-nav.me-auto.mb-2.mb-lg-0.mx-auto{
 .footersection{
     border-radius: 25px;
     background: #FEF6F3;;
+}
+
+.heading{
+    color: #f8f9fa;
 }
